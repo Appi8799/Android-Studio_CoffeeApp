@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewPayment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".PaymentClass">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TitleTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A1887F"
+        android:orientation="vertical"
+        tools:padding="20dp">
+
+        <TableLayout
+            android:id="@+id/tblPyment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtinfo"
+                    android:layout_width="286dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txtPickInfo"
+                    android:textColor="#4E342E"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="47dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtFName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtFName"
+                    android:textColor="#4E342E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editFName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/editFName"
+                    android:inputType="text"
+                    android:textColor="@drawable/Brown_Dark"
+                    android:textColorHint="#212121"
+                    android:textSize="15sp"
+                    tools:ignore="Autofill,TextContrastCheck" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtPhNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtPhone"
+                    android:textColor="#4E342E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editPh"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/editPh"
+                    android:inputType="number"
+                    android:textColor="@drawable/Brown1"
+                    android:textColorHint="#212121"
+                    android:textSize="15sp"
+                    tools:ignore="Autofill,TextContrastCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtPickTm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtTime"
+                    android:textColor="#4E342E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TimePicker
+                    android:id="@+id/datePicker1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5pt"
+                    android:calendarTextColor="#FAF8F8"
+                    android:calendarViewShown="false"
+                    android:foregroundTint="#F6F5F5"
+                    android:outlineSpotShadowColor="#F8F5F5"
+                    android:scrollbarStyle="outsideInset"
+                    android:scrollbars="vertical"
+                    android:splitMotionEvents="true"
+                    android:timePickerMode="spinner" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtPyInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtPyInfo"
+                    android:textColor="#4E342E"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="MissingConstraints" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtCrd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtCard"
+                    android:textColor="#4E342E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/dropDownList"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:entries="@array/Card_Type"
+                    android:spinnerMode="dropdown"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtCrdNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtCardNo"
+                    android:textColor="#4E342E"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editCrdNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:hint="@string/editPh"
+                    android:inputType="number"
+                    android:textColor="@drawable/Brown_Dark"
+                    android:textColorHint="#212121"
+                    android:textSize="15sp"
+                    tools:ignore="Autofill" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtCrdDt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/txtCardDt"
+                    android:textColor="@drawable/Brown_Dark"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+            </TableRow>
+
+            <TableRow android:layout_width="10dp"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/editMonth"
+                    android:layout_width="38dp"
+                    android:layout_height="50dp"
+                    android:hint="@string/editMonth"
+                    android:inputType="number"
+                    android:textColor="@drawable/Brown_Dark"
+                    android:textSize="15sp"
+                    tools:ignore="Autofill" />
+
+                <TextView
+                    android:id="@+id/txtD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/txtD"
+                    android:textColor="@drawable/Brown_Dark"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:hint="@string/editYear"
+                    android:inputType="number"
+                    android:minWidth="48dp"
+                    android:textColor="@drawable/Brown_Dark"
+                    android:textSize="15sp"
+                    tools:ignore="Autofill" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/editCVV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textColor="@drawable/Brown_Dark"
+                    android:textSize="15sp"
+                    android:hint="@string/editCvv"
+                    android:inputType="number"
+                    tools:ignore="Autofill" />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/btnPay"
+                android:layout_width="294dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/btnPay"
+                app:cornerRadius="30dp"
+                tools:ignore="MissingConstraints,UsingOnClickInXml"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="287dp" />
+
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewHome"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".HomePageClass">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/TitleTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A1887F"
+        android:orientation="vertical"
+        tools:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/txtMainName"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:text="@string/select_your_coffee"
+            android:textColor="#4E342E"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="47dp" />
+
+        <TableLayout
+            android:id="@+id/tblHome1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            tools:ignore="MissingConstraints">
+
+            <TableRow android:layout_marginTop="100dp">
+
+                <Button
+                    android:id="@+id/btnOpt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Opt_1"
+                    android:textColor="#D7CCC8"
+                    app:cornerRadius="30dp"/>
+
+                <Button
+                    android:id="@+id/btnOpt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/Opt_2"
+                    android:textColor="#D7CCC8"
+                    app:cornerRadius="30dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btnOpt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Opt_3"
+                    android:textColor="#D7CCC8"
+                    app:cornerRadius="30dp"
+                    tools:ignore="ButtonStyle,TextContrastCheck" />
+
+                <Button
+                    android:id="@+id/btnOpt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/Opt_4"
+                    android:textColor="#D7CCC8"
+                    app:cornerRadius="30dp"
+                    tools:ignore="ButtonStyle,MissingConstraints,TextContrastCheck" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtSizeView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/txtSize"
+                    android:textColor="#4E342E"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="47dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <RadioGroup android:id="@+id/btnRadioGrp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+
+                    <RadioButton
+                        android:id="@+id/rdbtn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sizeS"
+                        android:textStyle="bold"/>
+
+                    <RadioButton
+                        android:id="@+id/rdbtn2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sizeM"
+                        android:textStyle="bold"/>
+
+                    <RadioButton
+                        android:id="@+id/rdbtn3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sizeL"
+                        android:textStyle="bold"/>
+
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtOptionsView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/txtOptView"
+                    android:textColor="#4E342E"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="47dp" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/chbx1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chbx1"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/chbx2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chbx2"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/chbx3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chbx3"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/chbx4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chbx4"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/chbx5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chbx5"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/chbx6"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chbx6"/>
+
+            </TableRow>
+
+            <TableRow>
+
+                <CheckBox
+                    android:id="@+id/chbx7"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/chbx7"/>
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/btnContinue"
+                android:layout_width="294dp"
+                android:layout_height="61dp"
+                android:text="@string/btn_continue"
+                app:cornerRadius="30dp"
+                tools:ignore="MissingConstraints,UsingOnClickInXml"
+                tools:layout_editor_absoluteX="58dp"
+                tools:layout_editor_absoluteY="287dp" />
+
+        </TableLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollViewMain"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainClass">
+
+<LinearLayout
+    android:id="@+id/TitleTextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1887F"
+    android:orientation="vertical"
+    tools:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="120dp"
+        android:background="#301A1A"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtMainName"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtMainName"
+        android:textColor="@drawable/Brown_Dark"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/txtAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/txtAboutMe"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"/>
+
+
+        <TextView
+            android:id="@+id/txtDescView"
+            android:layout_width="wrap_content"
+            android:layout_height="212dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/Description_app"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/txtLinkView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Link_View" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:text="@string/start_ordering"
+        tools:ignore="UsingOnClickInXml" />
+
+</LinearLayout>
+</ScrollView>

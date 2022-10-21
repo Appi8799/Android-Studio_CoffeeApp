@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">OnlineCoffeeOrderApp</string>
+    <string name="home_page_name">Welcome</string>
+    <string name="order_page_name">Your Order</string>
+    <string name="txtMainName">The_Coffee_Shop</string>
+    <string name="txtAboutMe">About us</string>
+    <string name="Description_app">The_Coffee_Shop offers a unique coffee house environment unlike any other in Toronto. We are not only a place to drop in and get your morning cup of coffee (although you are more than welcome to do that), we are a place where you can sit down and enjoy that tailor-made cup of coffee. If you need to work, we have seating area created specifically for you. If you need to rest, we have s soft-seating area in front of a stone fire place that is perfect for your weary mind and body..!</string>
+    <string name="Link_View">Above description is from<a href="https://www.centennialcollege.ca/">http://www.theTasteCoffeeShop.com/about-us</a></string>
+    <string name="start_ordering">START ORDERING</string>
+    <string name="select_your_coffee">Select Your Coffee</string>
+    <string name="Opt_1">Americano</string>
+    <string name="Opt_2">Cappuccino</string>
+    <string name="Opt_3">Latte</string>
+    <string name="Opt_4">Macchiato</string>
+    <string name="btn_continue">CONTINUE</string>
+    <string name="sizeS">Small</string>
+    <string name="sizeM">Medium</string>
+    <string name="sizeL">Large</string>
+    <string name="txtSize">Select Your Size</string>
+    <string name="chbx1">2 Shots</string>
+    <string name="chbx2">Sugar</string>
+    <string name="chbx3">Cream</string>
+    <string name="chbx4">Whole Milk</string>
+    <string name="chbx5">2% Milk</string>
+    <string name="chbx6">Non Fat Milk</string>
+    <string name="chbx7">Almond Milk</string>
+    <string name="txtOptView">Options</string>
+    <string name="txtPickInfo">Enter Pickup Info</string>
+    <string name="txtFName">Full Name</string>
+    <string name="txtPhone">Phone Number</string>
+    <string name="txtTime">Pickup Time</string>
+    <string name="editFName">John Doe</string>
+    <string name="editPh">111-111-1111</string>
+    <string name="txtPyInfo">Enter Payment Info</string>
+    <string name="txtCard">Card Type</string>
+    <string name="txtCardNo">Card Number</string>
+    <string name="txtCardDt">Card Expiry Date</string>
+    <string name="editMonth">MM</string>
+    <string name="editYear">YYYY</string>
+    <string name="txtD">/</string>
+    <string name="editCvv">CVV</string>
+    <string name="btnPay">PLACE ORDER</string>
+
+</resources>
